@@ -1,20 +1,23 @@
 {
-    "name": "gingerpayments/ginger-php",
-    "description": "The official Ginger Payments PHP SDK",
+    "name": "duronrulez/ginger-php",
+    "description": "The Ginger Payments PHP 5.3 SDK",
     "keywords": ["payment", "pay", "merchant", "e-commerce"],
     "license": "MIT",
-    "homepage": "https://github.com/gingerpayments/php-sdk",
+    "homepage": "https://github.com/duronrulez/ginger-php",
     "authors": [
+        {
+            "name": "Hristo Mitev",
+            "email": "duronrulez@gmail.com "
+        },
         {
             "name": "Ginger Payments",
             "email": "dev@gingerpayments.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.2",
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "~3.8.1",
         "beberlei/assert": "~2.3",
-        "mathiasverraes/classfunctions": "~1.1",
         "ronanguilloux/isocodes": "~1.1",
         "rhumsaa/uuid": "~2.8",
         "nesbot/carbon": "~1.16"
